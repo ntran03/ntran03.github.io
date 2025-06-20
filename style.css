@@ -2,7 +2,7 @@ body {
     font-family: "Cormorant", serif;
     background-size: cover;
 	background-attachment: fixed;
-	background-color: #fefefa;
+	background-color: #f4f3e4;
     color: #28282a
 }
 
@@ -14,7 +14,7 @@ p {
 }
 
 a {
-    color:#14588a;
+    color:#404ca8;
     text-decoration: none;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -24,7 +24,7 @@ a {
 }
 
 a:hover {
-     color:#48b0b6;
+     color:#bbabff;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -o-transition: all .3s;
