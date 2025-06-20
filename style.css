@@ -2,8 +2,14 @@ body {
     font-family: "Cormorant", serif;
     background-size: cover;
 	background-attachment: fixed;
-	background-color: #f4f3e4;
-    color: #28282a
+	background-color: #efeeeb;
+    color: #28282a;
+    margin: 0;
+	overflow-x:hidden;
+    padding: 0;
+	padding-top:0px;
+	position: relative;
+    word-wrap: break-word;
 }
 
 p {
@@ -24,7 +30,7 @@ a {
 }
 
 a:hover {
-     color:#bbabff;
+    color:#bbabff;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -o-transition: all .3s;
@@ -32,17 +38,70 @@ a:hover {
     transition: all .3s;
 }
 
+u {
+    color:#404ca8
+}
+
 h1 {
     font-family: "Cormorant", serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;
+    font-size: 40px;
+    font-size: min(40px,calc(30px + .5vw));
+    font-style: normal
 }
 
 h2 {
     font-family: "Cormorant", serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal
+}
+
+#navbar {
+    position: fixed;
+    top: 5vh;
+    left: max(10vw, calc(50vw - 500px));
+    width: min(80vw, 1000px);
+    font-family: 'Cormorant', serif;
+    font-size: min(30px, calc(20px + .25vw));
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+    text-transform: lowercase;
+}
+
+#top-banner {
+    width: 100vw;
+    height: 13vh; 
+    background-color: rgba(170, 165, 148, 0.2); /* White overlay with 60% opacity */
+    background-blend-mode: overlay;
+    border-bottom:1px solid transparent;
+}
+
+#header{
+    position:fixed;
+    top:15vh;
+    left:10vw;
+	left: max(10vw,calc(50vw - 500px));
+	width:80vw;
+  	width: min(80vw,1000px);
+    font-family:'Cormorant', serif;
+    font-size:min(20px,calc(18px + .25vw));
+    text-align:left;
+}
+
+#content{
+    position:fixed;
+    top:25vh;
+    left:10vw;
+	left: max(10vw,calc(50vw - 500px));
+	width:80vw;
+  	width: min(80vw,1000px);
+    font-family:'Cormorant', serif;
+    font-size:min(20px,calc(18px + .25vw));
+    text-align:left;
 }
 

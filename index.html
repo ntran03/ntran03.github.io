@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<!-- formatting inspired by https://reionize.github.io/ -->
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
@@ -22,6 +24,15 @@
     <meta name="viewport" content="initial-scale=1, width=device-width, user-scalable=no">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     
+    <script type="text/javascript">
+    function expand() {
+        document.getElementById("expand").innerHTML = "";
+        document.getElementById("bio").innerHTML = "&ndash; <i> more about me </i>" +
+        "<p></p>";
+        document.getElementById("bio").style = "background-color: #f0f2f2; padding-top:6px; padding-bottom: 6px; padding-left:12px; padding-right:12px; margin-top:6px; overflow: hidden;"
+    }
+    </script>
+    
     <title> Nicole Tran </title>
     
   </head>
@@ -33,7 +44,22 @@
                 Nicole Tran
             </h1>
         </div>
-        <div id="content"></div>
+        <div id="content">
+            <div id="profile-container" style="float:right; margin-left:15px; margin-bottom:15px; margin-top:15px; max-width:40%; text-align:left;">
+                <img id="profile" src="./img/fav_full.png" width="250" style="cursor:help; max-width:100%;" />
+
+                    <div id="contact-box" style="background: rgba(190, 185, 169, 0.1); border: 1px solid #ccc; border-radius: 15px; padding: 10px; margin-top: 10px; font-size: 0.95em; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);">
+                        <p><strong>Email:</strong><br>ntran5 [at] buffalo [dot] edu</p>
+                        <p><strong>Location:</strong><br>Buffalo, NY</p>
+                    </div>
+            </div>
+
+            <p>I am an incoming PhD student at the University of Buffalo studying Pharmaceutical Sciences. I graduated from the University of Maryland in 2025 with my bachelor's in Information Science and minors in Data Science and Chinese.</p>
+            <p>I'm interested in applying my computational background to problems in PK/PD modelling and simulation, and more generally in learning about the drug development pipeline.</p>
+            <p>Outside of school, I love to <a href="https://www.youtube.com/@tianyidance">dance</a> and take <a href="https://ntran03.pixieset.com/">pictures</a>! Looking to pick up birding and work on my non-academic writing.</p>
+
+        </div>
+        <div id="top-banner"></div>
         <div id="navbar">
             <u> main</u> &nbsp;&nbsp;&nbsp;
 		    <a href="/research"> research </a> &nbsp;&nbsp;&nbsp;
