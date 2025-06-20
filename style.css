@@ -1,0 +1,48 @@
+body {
+    font-family: "Cormorant", serif;
+    background-size: cover;
+	background-attachment: fixed;
+	background-color: #fefefa;
+    color: #28282a
+}
+
+p {
+    margin-bottom: 8px;
+	margin-top: 12px;
+    margin-bottom: min(8px,calc(7px + .12vw));
+	margin-top: min(12px,calc(10px + .25vw));
+}
+
+a {
+    color:#14588a;
+    text-decoration: none;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+a:hover {
+     color:#48b0b6;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+h1 {
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
